@@ -1,0 +1,168 @@
+.calculator {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(213, 255, 229);
+    padding: 30px 20px;
+    box-shadow: 3px 3px 3px 3px rgb(212, 212, 212);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator__display--bare {
+    display: none;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 25px 15px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+
+.container{
+    border-radius: 10px;
+    height: 330px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator__display--bare > span {
+    display: inline-block;
+    text-align: center;
+    background-color: #f3f0fc;
+    margin: 5px;
+    width: 40px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+  
+  .calculator__display--for-advanced {
+    background-color: azure;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: end;
+    vertical-align: middle;
+    padding: 25px 15px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+  
+  .calculator__buttons {
+    background-color: #ffffff;
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .clear__and__enter {
+    height: 50px;
+    margin: 10px;
+    background-color: #f3f0fc;
+  }
+  .calculator__buttons {
+    background-color: azure;
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .clear__and__enter {
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(212, 255, 242);
+  }
+  
+  .clear__and__enter > button {
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 4.5px;
+    background-color:rgb(98, 255, 208);
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 1px 0 rgb(202, 202, 202);
+  }
+
+  .clear__and__enter > button:active {
+    box-shadow: 1px 1px 0 rgba(117, 216, 203, 0.514);
+    position: relative;
+    top: 2px;
+    color: #32978a;
+  }
+  .clear__and__enter > button:hover {
+    background-color: rgb(76, 235, 187);
+  }
+  
+  .button__row {
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(212, 255, 242);
+  }
+  
+  .button__row > button {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #f1fffa;
+    margin-top: 4.5px;
+    margin-left: 11.5px;
+    box-shadow: 1px 1px 0 rgb(202, 202, 202);
+  }
+
+  .button__row > button:active {
+    box-shadow: 1px 1px 0 rgba(117, 216, 203, 0.514);
+    position: relative;
+    top: 2px;
+    color: #32978a;
+
+  }
+  .button__row > button:hover {
+    background-color: rgb(172, 252, 255);
+  }
+  
+  .button__row > .operator {
+    background-color: rgb(131, 224, 193);
+  }
+  .button__row > .operator:hover {
+    background-color: rgb(131, 218, 224);
+  }
+  
+  .button__row > .double {
+    width: 115px;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: "Righteous", cursive;
+    color: #000;
+}
+
+
